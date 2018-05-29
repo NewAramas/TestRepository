@@ -1,0 +1,47 @@
+body{
+    background-color: darkgrey;
+    font:bold 20px Arial;
+}
+.div1 {
+     background-color: white;
+     border: 2px solid black;
+     padding: 50px 20px;
+     margin: 20px 50px;
+     width:23%;
+     display: inline-block;
+    text-align: center;
+   }
+.div11ch{
+    position: relative;
+    top:30px;
+}
+.div13ch{
+    position: relative;
+    bottom:30px;
+}
+.div12 .div13{
+    float:right;
+}
+.div21 {
+    background-color: white;
+    border: 2px solid black;
+    padding: 50px 20px;
+    margin: 20px 50px;
+    width:40%;
+    display: inline-block;
+    text-align: left;
+}
+.div21:first-letter{
+    color:red;
+}
+.div22 {
+    background-color: white;
+    border: 2px solid black;
+    padding: 50px 20px;
+    margin: 20px 50px;
+    width:40%;
+    display: inline-block;
+    text-align: right;
+}
+
+
