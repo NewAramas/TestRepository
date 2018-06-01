@@ -1,5 +1,62 @@
-.firstDiv{
-         display:flex;
 
+body{
+    background-color: darkgrey;
+    font:bold 20px Arial;
+    width: 100%;
 
-     }
+}
+.main-contain{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin:50px;
+
+}
+.main-contain .first-line,.second-line{
+      display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.main-contain .first-line div,.second-line div{
+    display:flex;
+
+    background-color: white;
+    border: 2px solid black;
+    flex-direction: column;
+margin:20px;
+  height:120px;
+    flex-grow: 1;
+}
+
+.first-line div{
+    align-items: center;
+
+}
+.second-line div{
+    justify-content: center;
+
+}
+.div1{
+    justify-content: flex-end;
+}
+.div2{
+    color: red;
+    justify-content: center;
+}
+.div3{
+    justify-content: flex-start;
+}
+
+.div4 {
+    align-items: flex-start;
+}
+
+.div5{
+    align-items: flex-end;
+}
+p{
+    margin:5px;
+}
