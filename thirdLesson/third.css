@@ -43,8 +43,11 @@ margin:20px;
     justify-content: flex-end;
 }
 .div2{
-    color: red;
+    /*color: red;*/
     justify-content: center;
+}
+.div2 p:first-letter{
+    color:red;
 }
 .div3{
     justify-content: flex-start;
@@ -59,4 +62,52 @@ margin:20px;
 }
 p{
     margin:5px;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .main-contain .first-line,.second-line{
+        display:flex;
+        flex-direction: column;
+    }
+    .main-contain .first-line{
+        order:2;
+    }
+    .main-contain .second-line{
+        order:1;
+    }
+    .first-line div{
+        justify-content: center;
+    }
+    .second-line div{
+        align-items: center;
+
+    }
+    .first-line .div1{
+        order:1;
+        align-items: flex-end;
+    }
+    .first-line .div2{
+        order:2;
+        align-items: center;
+
+    }
+    .first-line .div3{
+        order:-1;
+        align-items: flex-start;
+
+    }
+    .second-line .div4{
+        order:1;
+        justify-content: flex-end;
+
+    }
+    .second-line .div5{
+        order:-1;
+        justify-content: flex-start;
+    }
+     .div2 p:first-letter{
+        color:red;
+    }
 }
