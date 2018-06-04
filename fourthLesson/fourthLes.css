@@ -1,0 +1,179 @@
+body{
+    background-color: #cccccc;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
+    width:95%;
+    /*background-color: white;*/
+    margin: 2.5%;
+
+}
+
+.headerPink{
+    display: flex;
+    width: 100%;
+    background-color: #ff51b7;
+    height:50px;
+    margin-bottom: 2.5%;
+    border: black solid 1px;
+
+}
+.second{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    justify-content: space-between;
+    margin-bottom: 2.5%;
+}
+/*.secondLine, .firstLine{*/
+    /*display:flex;*/
+    /*width: 80%;*/
+    /*height: 150px;*/
+    /*!*margin: 20px 0;*!*/
+    /*flex-flow: row wrap;*/
+    /*justify-content: space-between;*/
+/*}*/
+.firstColumn{
+    display: flex;
+    width: 20%;
+    flex-flow: column wrap;
+    justify-content: space-between;
+
+}
+.secondColumn{
+    display: flex;
+    width: 77.5%;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+.Green{
+    display: flex;
+    background-color: #54ff72;
+    width: 100%;
+    height: 45%;
+    border: black solid 1px;
+
+}
+.Red{
+     display: flex;
+     background-color: red;
+     width: 100%;
+    height: 45%;
+    border: black solid 1px;
+ }
+.Orange{
+    display: flex;
+    background-color: orange;
+    width: 100%;
+    height: 45%;
+    border: black solid 1px;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.BlueYellow{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 45%;
+
+
+}
+.Blue{
+    display: flex;
+    background-color: dodgerblue;
+    width: 60%;
+    border: black solid 1px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    /*height: 45%;*/
+}
+.Yellow{
+    display: flex;
+    background-color: yellow;
+    /*height: 45%;*/
+    width: 35%;
+    border: black solid 1px;
+}
+.footerGrey{
+    display: flex;
+    width: 100%;
+    background-color: rgba(83, 83, 80, 0.83);
+    height:50px;
+    border: black solid 1px;
+}
+.lightBlue, .lightGrey, .darkRed {
+    display: flex;
+    border: black solid 1px;
+    width: 15%;
+    height: 70%;
+    margin: 0 5%;
+}
+.lightBlue{
+    background-color: aqua;
+}
+.lightGrey{
+    background-color: darkgray;
+}
+.darkRed{
+    background-color: darkred;
+}
+.Blue div{
+    display: flex;
+    border: black solid 1px;
+    width: 15%;
+    height: 20%;
+    margin: 5%;
+
+}
+.smallPink{
+    background-color: #ff51b7;
+    align-self: flex-start;
+}
+.smallGreen{
+    background-color: green;
+
+}
+.smallBlack{
+    background-color: black;
+    align-self: flex-end;
+}
+@media screen and (max-width: 800px) {
+    body{
+        background-color: mediumvioletred;
+    }
+    .firstColumn{
+        flex-flow: column-reverse wrap;
+    }
+    .Blue{
+        flex-flow: row-reverse wrap;
+        width: 100%;
+        height: 100%;
+    }
+    .Yellow{
+        width: 800px;
+    }
+
+    .Orange div{
+        height:20%;
+    }
+    .lightBlue{
+        order:3;
+    }
+    .lightGrey{
+        order:1;
+    }
+    .darkRed{
+        order:2;
+    }
+
+}
