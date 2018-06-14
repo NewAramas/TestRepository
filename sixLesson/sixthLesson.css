@@ -1,0 +1,94 @@
+@media screen and (max-width: 500px) {
+    body div .first {
+        order: 1;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    body div .second {
+        order: 3;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    body div .third {
+        order: 4;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    body div .fourth {
+        order: 2;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    body div .fourthBold {
+        order: 5;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    body div .fifth {
+        order: 6;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+}
+.container {
+    background-color: #D3D3D3;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-color: grey;
+    width: 25%;
+    height: 200px;
+    margin: 20px 0;
+    font-size: 25px;
+    font-family: arial;
+    word-break: break-word;
+}
+.container .first {
+    background-color: #00ff00;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+.container .second {
+    background-color: red;
+    color: #00ff00;
+    align-items: flex-end;
+    font-size: 30px;
+}
+.container .third {
+    background-color: blue;
+    color: #00ff00;
+    font-style: italic;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.container .fourth {
+    background-color: #00ffff;
+    color: red;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+.container .fourthBold {
+    background-color: #00ff00;
+    color: #9932CC;
+    font-weight: bold;
+}
+.container .fifth {
+    background-color: red;
+    color: #00ff00;
+    font-size: 55px;
+
+}
