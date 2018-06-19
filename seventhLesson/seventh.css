@@ -1,0 +1,35 @@
+.container .row{
+    width:90%;
+}
+.container .row div{
+    height: 50px;
+/*margin: 5px;*/
+}
+.red{
+    background-color: red;
+}
+.lightGreen{
+    background-color: #18ff77;
+}
+.darkGreen{
+    background-color: #08561a;
+}
+.blue{
+   background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.pink{
+    background-color: deeppink;
+}
+.purple{
+    background-color: purple;
+}
+.orange{
+    background-color: orange;
+}
+.brightGreen{
+    background-color: chartreuse;
+}
+
