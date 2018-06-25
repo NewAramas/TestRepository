@@ -1,0 +1,88 @@
+@lightgreen:#00ff00;
+@media screen and (max-width:500px){
+body{
+background-color:red;
+
+div{
+flex-flow: raw wrap;
+.first{
+order:1;
+}
+.second{
+order:3;
+}
+.third{
+order:4;
+}
+.fourth{
+order:2;
+}
+.fourthBold{
+order:5;
+}
+.fifth{
+order:6;
+}
+}}}
+
+
+.container{
+background-color: #D3D3D3;
+display:flex;
+flex-flow:row wrap;
+width:100%;
+justify-content: space-around;
+
+div{
+display:flex;
+justify-content: center;
+align-items:center;
+border: 2px solid;
+border-color:grey;
+width:25%;
+height:200px;
+margin:20px 0;
+font-size:25px;
+font-family: arial;
+
+}
+
+.first{
+background-color:@lightgreen;
+color:red;
+font-size:40px;
+font-weight:bold;
+}
+.second{
+background-color:red;
+color:@lightgreen;
+align-items: flex-end;
+font-size:30px;
+}
+.third{
+background-color:blue;
+color:@lightgreen;
+font-style:italic;
+align-items: flex-start;
+justify-content: flex-end;
+
+}
+.fourth{
+background-color:#00ffff;
+color:red;
+justify-content: flex-end;
+font-size:15px;
+
+}
+.fourthBold{
+background-color:@lightgreen;
+color:#9932CC;
+font-weight:bold;
+}
+.fifth{
+background-color:red;
+color: @lightgreen;
+font-size:55px;
+}
+
+}
